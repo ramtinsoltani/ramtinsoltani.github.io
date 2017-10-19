@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./jarallax.min.js"></script>
+    <script src="./jarallax-video.min.js"></script>
+    <script src="./script.js"></script>
+    <title>Ramtin</title>
+  </head>
+  <body>
+    <div class="loader-container">
+      <svg class="loader" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+        <path d="M270,14c0,7.7-6.3,14-14,14C130.1,28,28,130.1,28,256c0,7.7-6.3,14-14,14s-14-6.3-14-14C0,114.6,114.6,0,256,0C263.7,0,270,6.3,270,14z" fill="#ffffff"/>
+      </svg>
+    </div>
+    <header>
+      <div class="top">
+        <div class="top-bar">
+          <a href="#">
+            <div class="blog-identity no-select">
+              <div class="blog-logo"></div>
+              <div class="blog-title">Ramtin</div>
+            </div>
+          </a>
+          <nav class="nav-bar no-select">
+            <a href="#" class="nav-button">
+              <div class="nav-label">HOME</div>
+            </a>
+            <a href="#" class="nav-button">
+              <div class="nav-label">BLOG</div>
+            </a>
+            <a href="#" class="nav-button">
+              <div class="nav-label">PROJECTS</div>
+            </a>
+            <a href="#" class="nav-button">
+              <div class="nav-label">ABOUT</div>
+            </a>
+            <a class="nav-button" id="nav-search" onclick="ramtin.util.toggleSearch();">
+              <div class="nav-label">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve" width="24px" height="24px">
+                  <g>
+                  	<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M244.186,214.604l-54.379-54.378c-0.289-0.289-0.628-0.491-0.93-0.76   c10.7-16.231,16.945-35.66,16.945-56.554C205.822,46.075,159.747,0,102.911,0S0,46.075,0,102.911   c0,56.835,46.074,102.911,102.91,102.911c20.895,0,40.323-6.245,56.554-16.945c0.269,0.301,0.47,0.64,0.759,0.929l54.38,54.38   c8.169,8.168,21.413,8.168,29.583,0C252.354,236.017,252.354,222.773,244.186,214.604z M102.911,170.146   c-37.134,0-67.236-30.102-67.236-67.235c0-37.134,30.103-67.236,67.236-67.236c37.132,0,67.235,30.103,67.235,67.236   C170.146,140.044,140.043,170.146,102.911,170.146z" fill="white"/>
+                  </g>
+                </svg>
+              </div>
+            </a>
+          </nav>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Press enter to search..." spellcheck="true" style="opacity: 0;">
+        </div>
+      </div>
+      <div class="top-gap"></div>
+      <div class="jarallax header" data-speed="0.5" data-jarallax-video="https://youtu.be/ifExeQGaPsc">
+        <div class="header-cover">
+          <div class="blog-logo-large"></div>
+          <div class="blog-description">LET'S SHARE THE BEST OF OUR CODING KNOWLEDGE</div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="block">
+        <div id="avatar-border" class="author-avatar-border">
+          <div id="avatar" class="author-avatar"></div>
+        </div>
+        <div class="author-info">
+          <div class="author-name">Ramtin Soltani</div>
+          <div class="author-bio">
+            I am a fullstack web developer located in Los Angeles, CA.<br><br>
+            I use JavaScript with Node JS, Angular, Electron, and Firebase to build web and desktop applications with realtime responsiveness.<br><br>
+            There's nothing I love more than coding! That's why I created this website to share and exchange my knowledge with you through my blog.
+          </div>
+        </div>
+      </section>
+      <section class="block">
+        
+      </section>
+    </main>
+  </body>
+</html>
